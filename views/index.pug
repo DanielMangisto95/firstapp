@@ -1,0 +1,14 @@
+extends layout
+
+block layout-content 
+  div.indexDiv
+  <img src="noff.jpg">
+           <form action="/user" method="POST">
+            <label for="first_name">First Name</label>
+            <input type="text" id="first_name" name="first_name" placeholder="Your name..">
+
+            <label for="last_Name">Last Name</label>
+            <input type="text" id="last_Name" name="last_Name" placeholder="Your last name..">
+
+            <input type="submit" id="sub" value="Submit">  
+  
